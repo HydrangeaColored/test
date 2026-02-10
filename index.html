@@ -13,8 +13,8 @@
       padding: 0;
       width: 100%;
       height: 100%;
-      overflow: hidden;  /* no scrollbars */
-      background: black;  /* black bars around game */
+      overflow: hidden; /* remove scrollbars */
+      background: black; /* black bars around game */
     }
 
     #unity-container {
@@ -87,12 +87,12 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/test.loader.js";
+    var loaderUrl = buildUrl + "/Build.loader.js";
     var config = {
       arguments: [],
-      dataUrl: buildUrl + "/test.data",
-      frameworkUrl: buildUrl + "/test.framework.js",
-      codeUrl: buildUrl + "/test.wasm",
+      dataUrl: buildUrl + "/Build.data.br",
+      frameworkUrl: buildUrl + "/Build.framework.js.br",
+      codeUrl: buildUrl + "/Build.wasm.br",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "WAKE UP!",
